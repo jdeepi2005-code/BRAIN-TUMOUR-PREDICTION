@@ -142,7 +142,8 @@ st.markdown("---")
 st.markdown(
     "<div class='footer'>⚕️ AI-assisted system | Not a substitute for professional diagnosis</div>",
     unsafe_allow_html=True
-)import streamlit as st
+)
+import streamlit as st
 import tensorflow as tf
 from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing import image
@@ -287,4 +288,5 @@ st.markdown(
     "<div class='footer'>⚕️ AI-assisted system | Not a substitute for professional diagnosis</div>",
     unsafe_allow_html=True
 )
+
 
