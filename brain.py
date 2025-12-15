@@ -51,7 +51,7 @@ h1 {
 """, unsafe_allow_html=True)
 
 # ================== LOAD MODEL (FROM GOOGLE DRIVE) ==================
-MODEL_ID = "17egawO8VZD0SdkJ-mzVWF9d7GvjOIFZM"   # 🔴 REPLACE with your Google Drive file ID
+MODEL_ID = "1AeclCMWMebnICfSOZxFpKk5hTydg3PXX/view"   # 🔴 REPLACE with your Google Drive file ID
 MODEL_PATH = "Brain_Tumor_dataset.h5"
 
 @st.cache_resource
@@ -287,3 +287,4 @@ st.markdown(
     "<div class='footer'>⚕️ AI-assisted system | Not a substitute for professional diagnosis</div>",
     unsafe_allow_html=True
 )
+
